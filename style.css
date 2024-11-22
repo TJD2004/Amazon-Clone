@@ -1,30 +1,25 @@
-#Greeting {
-    color: rgb(238, 18, 18);
-   
+* {
+    padding: 0;
+    margin: 0;
+    color: aliceblue;
 }
 
-p {
-    color: rgb(187, 67, 19);
-   
+#NavBar {
+    padding-top: 25px;
+    padding-bottom: 2px;
+   height: 60px;
+   background-color: black;
 }
 
 button {
-    color: blueviolet;
-    background-color: aquamarine;
+    background-color: aqua;
 }
 
-body {
-    background-color: burlywood;
-}
-
-#Introduction {
-    color: blueviolet;
-}
-
-#MoreInformation {
+#logo {
     color: chocolate;
 }
 
-.myclass {
-    color: darkgoldenrod;
+a {
+    margin: 125px;
+    text-decoration: none;
 }
