@@ -1,0 +1,30 @@
+#Greeting {
+    color: rgb(238, 18, 18);
+   
+}
+
+p {
+    color: rgb(187, 67, 19);
+   
+}
+
+button {
+    color: blueviolet;
+    background-color: aquamarine;
+}
+
+body {
+    background-color: burlywood;
+}
+
+#Introduction {
+    color: blueviolet;
+}
+
+#MoreInformation {
+    color: chocolate;
+}
+
+.myclass {
+    color: darkgoldenrod;
+}
