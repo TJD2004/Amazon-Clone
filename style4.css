@@ -1,0 +1,73 @@
+body {
+    background-color: antiquewhite;
+    background-image: url("https://i.pinimg.com/736x/e1/9b/f0/e19bf09954ad5231ad9a89cb8db03ec4.jpg");
+    background-size: cover;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    margin: 3px;
+    font-family: cursive;
+    text-align: center;
+    display: inline-block;
+}
+
+h1 {
+    background-color: rgb(195, 160, 70);
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline wavy orange;
+    text-align: center;
+    color: darkred;
+    position: sticky;
+    top: 0;
+}
+
+#box1 {
+    border: 4px solid red;
+    position: sticky;
+    top: 75px;
+    background-image: url("https://i.pinimg.com/736x/e1/9b/f0/e19bf09954ad5231ad9a89cb8db03ec4.jpg");
+    background-size: contain;
+
+}
+
+#box2 {
+    background-image: url("https://prod-printler-front-as.azurewebsites.net/media/photo/194010.jpg?mode=crop&width=638&height=900&rnd=0.0.1");
+    background-size: contain;
+    border: 4px solid darkblue;
+    position: sticky;
+    left: 150px;
+    top: 75px;
+}
+
+#box3 {
+    background-image: url("https://motionbgs.com/media/6096/bulbasaur-pokemon.jpg");
+    background-size: contain;
+    border: 4px solid yellow;
+    position: sticky;
+    top: 75px;
+    left: 300px;
+}
+
+#box4 {
+    background-image: url("https://cardboardwarriors.net/assets/blastoise-cover.jpeg");
+    background-size: contain;
+    border: 4px solid rgb(216, 14, 162);
+    position: sticky;
+    top: 75px;
+    left: 450px;
+}
+
+#box5 {
+    background-image: url("https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/35c5d28e-0506-4dce-bd5e-c5eb75667700/7996ceef-f30b-4929-8aba-a8869827d012.png");
+    background-size: contain;
+    border: 4px solid rgb(6, 123, 80);
+    position: sticky;
+    top: 75px;
+    left: 600px;
+}
+
+p {
+    color: bisque;
+}

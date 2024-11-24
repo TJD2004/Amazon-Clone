@@ -1,0 +1,19 @@
+#box1 {
+    height: 100px;
+    width: 500px;
+    background-color: burlywood;
+    font-size: 10px;
+    position: relative;
+    position: sticky;
+}
+
+#box2 {
+    height: 75px;
+    width: 30%;
+    background-color: chocolate;
+    margin-left: 150px;
+    font-size: 2em;
+    font-size: 2em;
+    border-radius: 25%;
+    position: sticky;
+}
