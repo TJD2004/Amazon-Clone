@@ -125,3 +125,7 @@
     left: 20px;
     border: none;
 }
+
+.hello {
+    border: 2px solid white;
+}
