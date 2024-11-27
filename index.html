@@ -10,7 +10,7 @@
 <body>
     <header>
         <div class="navbar">
-           <div class="border1">
+           <div class="border1 border">
             <a href="index.html"><img id="logo" src="Amazon1.jpg" alt="Amazon.in"></a>
            </div>
            <div class="nav-address">
@@ -24,23 +24,57 @@
                 <select id="select-option">
                     <option>All</option>
                 </select>
-                <input id="search-input" placeholder="  Search Amazon.in">
+                <input class="search-input" placeholder="  Search Amazon.in">
                 <div class="search-icon">
                     <i id="search-logo"  class="fa-solid fa-magnifying-glass"></i>
                 </div>
             </div>
-            <div class="country">
+            <div class="country border">
+                <img id="flag" src="india.png" alt="lg">
                 <select id="select-country">
-                    <option>EN</option>
+                    <option id="language">EN</option>
                 </select>
             </div>
-            <div class="hello">
+            <div class="hello border">
                 <p class="sign-in">Hello, sign in</p>
-                <div class="account">
+                <select id="Account">
+                    <option id="Lists">Account & Lists</option>
+                </select>
            </div>
-           <div>
-            <p>Day 3</p>
+           <div class="orders border">
+                <p id="P1">Returns</p>
+                <p id="P2">& Orders</p>
            </div>
+           <div class="cart border">
+                <p id="zero">0</p>
+                <div id="column">    
+                    <i id="cart-logo" class="fa-solid fa-cart-shopping"></i>
+                    <p id="added">Cart</p>
+                </div>
+           </div>
+        </div>
+        <div class="panel">
+            <div class="panel-all border">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-option">
+                <p class="panel-o border">Fresh</p>
+                <p class="panel-o border">MX Player</p>
+                <p class="panel-o border">Sell</p>
+                <p class="panel-o border">Best Sellers</p>
+                <p class="panel-o border">Today's Deals</p>
+                <p class="panel-o border">Mobiles</p>
+                <p class="panel-o border">Electronics</p>
+                <p class="panel-o border">Customer Service</p>
+                <p class="panel-o border">Home & Kitchen</p>
+                <p class="panel-o border">Prime</p>
+                <p class="panel-o border">Amazon Pay</p>
+                <p class="panel-o border">New Releases</p>
+                <p class="panel-o border">Fashion</p>
+                <p class="panel-o border">Car & Motorbike</p>
+                <p class="panel-o border">Computers</p>
+            </div>
         </div>
     </header>
 </body>
