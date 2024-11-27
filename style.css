@@ -110,3 +110,18 @@
     font-size: 1rem;
     border: none;
 }
+
+.country {
+    border: none;
+}
+
+#select-country {
+    background-color: #0f1111;
+    font-weight: bold;
+    font-size: medium;
+    color: #f3f3f3;
+    position: relative;
+    top: 7px;
+    left: 20px;
+    border: none;
+}
